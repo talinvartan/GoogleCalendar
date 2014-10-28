@@ -1,0 +1,109 @@
+header {
+    background-color: #efefef;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px white;
+    font-size: 2.5em;
+    padding: 0.25em;
+    text-align: center;
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 0.1em;*/
+    min-width: 550px;
+}
+
+section {
+    width: 100%;
+    background-color: #aaa;
+    min-width: 550px;
+}
+
+section > div {
+    min-height: 200px;
+    float: left;
+}
+
+div.container_scheduler {
+    width: calc(100% - 250px);
+    /*background-color: #aaa;*/
+}
+
+div.container_calendar {
+    width: 250px;
+    background-color: #ccc;
+}
+
+div.row > div {
+    float: left;
+    min-height: 50px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+div.time {
+    width: 100px;
+    text-align: right;
+    border-right: 1px solid white;
+}
+
+div.half-schedule {
+    width: calc(100% - 101px);
+}
+
+div.half-hour {
+    min-height: 25px;
+    color: #000000;
+    background-color: #eee;
+}
+
+div.half-hour:nth-child(2) {
+    margin-top: 1px;
+}
+
+div.half-hour.selected {
+    background-color: green;
+}
+
+div.popup_display {
+    min-height: 0;
+    border: 1px solid gray;
+    box-shadow: 0 0 15px 2px gray;
+    padding: 1em;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    background-color: #ffffff;
+}
+
+div.hide {
+    display: none;
+}
+
+div.show {
+    display: block;
+}
+
+#divTable
+{
+    display:  table;
+    width:auto;
+    background-color:#eee;
+    border:0.5px solid  #666666;
+    border-spacing:1px;
+}
+
+.divRow
+{
+    display:table-row;
+    width:auto;
+}
+
+.divCell
+{
+    float: right;
+    display: table-column;
+    width: 35px;
+    background-color:#ccc;
+}
+
+h1 {
+    text-align: center;
+}

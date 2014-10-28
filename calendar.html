@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="base.css"/>
+    <style>
+        div.calendar_select {
+            background-color: #eee;
+            width: 300px;
+            float: left;
+        }
+
+        div.scheduler {
+            background-color: #aaa;
+            width: 60%;
+            float: left;
+        }
+        footer {
+            clear: both;
+        }
+        div.popup_scheduler {
+            border: 1px solid gray;
+            padding: 1em;
+            position: absolute;
+            top: 300px;
+            left: 300px;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        GLL Calendar
+    </header>
+    <section>
+        <div class="popup_scheduler">
+            <p>Schedule the event at ... </p>
+            <input type="text" placeholder="what is the event about? "/>
+        </div>
+        <div class="calendar_select">
+            Calendar here ...
+        </div>
+        <div class="scheduler">
+            <div class="row">
+                <div class="time">
+                    Time
+                </div>
+                <div class="half-schedule">
+                    What ... of the schedule
+                </div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+    </section>
+    <footer>
+        &copy; GoLiveLabs 2013
+    </footer>
+
+</body>
+</html>
